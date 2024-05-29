@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main', # add main app to this list
+    'users',
 ]
 
 MIDDLEWARE = [
