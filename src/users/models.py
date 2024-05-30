@@ -1,9 +1,8 @@
-from django.db import models
-from django.contrib.auth.models import User
-
 # Create your models here.
 # This model is for users, when they input their information, this model allows them to create a new user
 # account in Django Admin
+from django.contrib.auth.models import User
+from django.db import models
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
